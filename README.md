@@ -1,5 +1,13 @@
 # RECURSIVIDAD-MAYOR
- class Program
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication66
+{
+    class Program
     {
 
         static int NumeroMayor(int[] x, int n, int Mayor)
@@ -48,3 +56,5 @@
             Console.WriteLine("el numero mayor es:" + NumeroMayor(vec, m - 1, vec[0]));
             Console.ReadKey();
         }
+    }
+}
